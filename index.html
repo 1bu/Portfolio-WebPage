@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Carpio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/08b3b429b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----------------Navbar----------------------------->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-logo">
+            <div class="header-img">
+                X
+            </div>
+            <span class="header-name">Ivan Carpio</span>
+            </div>
+            <div >
+                <ul class="header-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#project">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-----------------Hero Section---------------------------------->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm Ivan Carpio</h1>
+            <span class="hero-sub">Software Developer</span>
+            <div class="hero-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quibusdam cum fuga rem consequatur. Ipsa, nostrum quasi illo nisi, expedita ipsum, adipisci perferendis unde saepe a illum quo nam laborum?
+            </div>
+        </div>
+        <div class="hero-socials">
+            <div>
+                <a href="#" class="hero-icon">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
+                </div>
+            <div>
+                <a href="#" class="hero-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="hero-icon">
+                <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!----------------About Me--------------------------------------->
+    <section class="about" id="about">
+       <div>
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>Know Me!</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nulla quos eos dolores nam ducimus dolor assumenda quis impedit ut? Dicta, quo neque illo itaque perspiciatis corporis odio quia possimus!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque cum dicta, unde non tempora, ipsam architecto adipisci nemo quisquam veritatis ad eius harum fugit consequuntur impedit vel delectus a numquam?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae cumque consequuntur animi praesentium soluta voluptatum culpa itaque. Quasi rerum dolores perspiciatis atque, ut, distinctio cumque quisquam ducimus officiis optio accusantium.</p>
+                </div>
+                <div>
+                    <h3>My Skills</h3>
+                    <div class="about-skills">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>Angular</div>
+                        <div>React</div>
+                        <div>Java</div>
+                        <div>C</div>
+                        <div>Git</div>
+                        <div>Bootstrap</div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    </section>
+    <!-------------Projects-------------------------------->
+    <section class="project" id="project">
+        <div>
+            <h1>Projects</h1>
+            <div class="project-content">
+                <div class="project_">
+                    <div>
+                        <img src="filter-4.png" alt="">
+                    </div>
+                    <h2 class="project-sub">Project 1</h2>
+                    <button id="open" class="modal-btn">
+                        More Info
+                    </button>
+                </div>
+                <div class="project_">
+                    <div class="project-menu">
+                        <img src="filter-4.png" alt="">
+                    </div>
+                    <h2 class="project-sub">Project 2</h2>
+                    <p class="project-text"><a href="#">More Info</a></p>
+                </div>
+                <div class="project_">
+                    <div>
+                        <img src="filter-4.png" alt="">
+                    </div>
+                    <h2 class="project-sub">Project 3</h2>
+                    <p class="project-text"><a href="#">More Info</a></p>
+                </div>
+            </div>
+           <div class="modal-container" id="modal-container">
+                <div class="modal">
+                    <img src="filter-4.png" alt="">
+                    <h2>Project #</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste modi doloribus repellat ducimus eveniet nulla et autem labore, harum aliquid dolores incidunt quidem, culpa rem voluptatibus cupiditate ratione quisquam nesciunt?</p>
+                    <button class="modal-btn" id="close">
+                        Close
+                    </button>
+                </div>
+                </div>
+            </div>
+    </section>
+    <!-------------Contact-------------------------------->    
+    <section class="contact">
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit temporibus consequatur repellendus</p>
+            <div class="contact-info">
+                <div class="contact-info-input">
+                    <div >
+                        <label class="contact-label" for="name">Name</label>
+                        <input class="contact-input" id="name" name="name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div>
+                        <label class="contact-label" for="email">Email</label>
+                        <input class="contact-input" type="text" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="contact-info-input">
+                    <label class="contact-label" for="message">Message</label>
+                    <textarea class="contact-input" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="contact-info-input">
+                    <button class="contact-btn" type="submit">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--Arreglar social y recuadro de proyectos sobrepone el navbar-->
+<!---Hacerlo responsive-->
