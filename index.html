@@ -19,20 +19,31 @@
             </div>
             <span class="header-name">Ivan Carpio</span>
             </div>
-            <div >
+            <div class="header-main">
                 <ul class="header-items">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#project">Projects</a></li>
                 </ul>
+                <div class="header-main-bar" id="header-main-bar"> <!------Faltan los emotes-->
+                    <div id="openBar"><i class="fa-solid fa-bars"></i></div>
+                    <div id="closeBar"><i class="fa-solid fa-xmark"></i></div>
+                </div>
             </div>
+        </div>
+        <div class="header-items-sm" id="header-items-sm">
+            <ul class="header-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Projects</a></li>
+            </ul>
         </div>
     </header>
     <!-----------------Hero Section---------------------------------->
     <section class="hero" id="home">
         <div class="hero-content">
             <h1 class="hero-title">Hi, I'm Ivan Carpio</h1>
-            <span class="hero-sub">Software Developer</span>
+            <h2 class="hero-sub">Software Developer</h2>
             <div class="hero-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quibusdam cum fuga rem consequatur. Ipsa, nostrum quasi illo nisi, expedita ipsum, adipisci perferendis unde saepe a illum quo nam laborum?
             </div>
@@ -58,7 +69,7 @@
     <!----------------About Me--------------------------------------->
     <section class="about" id="about">
        <div>
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-info">
                     <h3>Know Me!</h3>
@@ -85,49 +96,47 @@
     </section>
     <!-------------Projects-------------------------------->
     <section class="project" id="project">
-        <div>
-            <h1>Projects</h1>
-            <div class="project-content">
-                <div class="project_">
-                    <div>
-                        <img src="filter-4.png" alt="">
-                    </div>
-                    <h2 class="project-sub">Project 1</h2>
-                    <button id="open" class="modal-btn">
-                        More Info
-                    </button>
-                </div>
-                <div class="project_">
-                    <div class="project-menu">
-                        <img src="filter-4.png" alt="">
-                    </div>
-                    <h2 class="project-sub">Project 2</h2>
-                    <p class="project-text"><a href="#">More Info</a></p>
-                </div>
-                <div class="project_">
-                    <div>
-                        <img src="filter-4.png" alt="">
-                    </div>
-                    <h2 class="project-sub">Project 3</h2>
-                    <p class="project-text"><a href="#">More Info</a></p>
-                </div>
-            </div>
-           <div class="modal-container" id="modal-container">
-                <div class="modal">
+        <h2>Projects</h2>
+        <div class="project-content"> <!---Cards container---->
+            <div class="project_"> <!----Cards----->
+                <div>
                     <img src="filter-4.png" alt="">
-                    <h2>Project #</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste modi doloribus repellat ducimus eveniet nulla et autem labore, harum aliquid dolores incidunt quidem, culpa rem voluptatibus cupiditate ratione quisquam nesciunt?</p>
-                    <button class="modal-btn" id="close">
-                        Close
-                    </button>
                 </div>
-                </div>
+                <h3 class="project-sub">Project 1</h3>
+                <button id="open" class="modal-btn">
+                     More Info
+                </button>
             </div>
+            <div class="project_">
+                <div class="project-menu">
+                    <img src="filter-4.png" alt="">
+                </div>
+                <h3 class="project-sub">Project 2</h3>
+                <p class="project-text"><a href="#">More Info</a></p>
+            </div>
+            <div class="project_">
+                <div>
+                    <img src="filter-4.png" alt="">
+                </div>
+                <h3 class="project-sub">Project 3</h3>
+                <p class="project-text"><a href="#">More Info</a></p>
+            </div>           
+        </div>
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+                <img src="filter-4.png" alt="">
+                <h2>Project #</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste modi doloribus repellat ducimus eveniet nulla et autem labore, harum aliquid dolores incidunt quidem, culpa rem voluptatibus cupiditate ratione quisquam nesciunt?</p>
+                <button class="modal-btn" id="close">
+                    Close
+                </button>
+            </div>
+        </div>
     </section>
     <!-------------Contact-------------------------------->    
     <section class="contact">
         <div class="contact-container">
-            <h1>Contact Me</h1>
+            <h2>Contact Me</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit temporibus consequatur repellendus</p>
             <div class="contact-info">
                 <div class="contact-info-input">
